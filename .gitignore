@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+.env
+
+# Do not upload private data by default
+data/*.jsonl
+data/*.csv
+
+# Do not upload generated results by default
+results/*.csv
+results/*.xlsx
+results/*.json
+
+# Do not upload large model files
+models/
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# System files
+.DS_Store
